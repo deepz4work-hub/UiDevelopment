@@ -1,0 +1,76 @@
+.logo {
+    width: 100px;
+}
+
+ul.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.headerWrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+}
+
+div.userName {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10%;
+}
+
+div.userName p {
+    background: #b1dfe7;
+    padding: 15px;
+    border-radius: 15px;
+    color: blue;
+    font-weight: 600;
+}
+
+.heroSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+body{
+    overflow: hidden;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    color: #515050;
+    font-size: 3em;
+
+}
+
+.heroSection div {
+    padding: 10% 17%;
+}
+
+h2 {
+    color: #00BFFF;
+}
+
+.heroSection p {
+    font-size: 1.13em;
+    color: grey;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.heroSection button {
+    background: #00BFFF;
+    padding: 15px 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 1.13em;
+    cursor: pointer;
+}
+.heroSection img{
+    width: 60%;
+}
