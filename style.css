@@ -10,6 +10,12 @@ ul.menu {
     align-items: flex-end;
 }
 
+ul.menu a{
+    text-decoration: none;
+    color:grey;
+    font-size: 18px;
+}
+
 .headerWrapper {
     display: grid;
     grid-template-columns: 2fr 2fr 3fr;
