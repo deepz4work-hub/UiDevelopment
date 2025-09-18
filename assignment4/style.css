@@ -14,6 +14,11 @@
     flex-direction: column;
     align-items: center;
 }
+
+#checkoutButton:disabled {
+    background: grey !important;
+    cursor: not-allowed;
+}
 .privacypolicy-section h1 {
     color: #00BFFF;
     font-size: 2.5em;
