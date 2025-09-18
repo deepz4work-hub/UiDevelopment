@@ -12,3 +12,10 @@ else{
     event.target.className = ""
 }
 }
+let addButtons = document.getElementsByClassName("add_item");
+debugger
+for (addButton of addButtons) {
+    addButton.addEventListener('click', (event) => {
+        alert("Item added to the cart");
+    })
+}
